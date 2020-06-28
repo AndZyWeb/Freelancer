@@ -1,0 +1,464 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+header {
+  max-width: 100%;
+  height: 1057px;
+  background: url(../img/Photo.svg) top no-repeat;
+}
+
+.block {
+  max-width: 950px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar {
+  padding-top: 0px;
+}
+
+.logo {
+  height: 74px;
+  width: 140px;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #fa5c65;
+  font-family: "Domine", serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.navbar-light .navbar-text {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+
+.navbar-text:after {
+  content: ".";
+  color: #314a5b;
+}
+
+.nav-item:first-child,
+.nav-item:nth-child(2),
+.nav-item:nth-child(3) {
+  margin-right: 40px;
+}
+
+.nav-item:nth-child(5) {
+  margin-left: 31px;
+  margin-right: 23px;
+}
+
+.nav-item a {
+  color: #263742;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-item i {
+  font-size: 14px;
+  color: #fa5c65;
+}
+
+.description {
+  position: absolute;
+  top: 380px;
+  width: 40%;
+}
+
+.description h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #314a5b;
+}
+
+.description h1:after {
+  content: ".";
+  color: #fa5c65;
+}
+
+.description p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #314a5b;
+  margin-top: 31px;
+}
+
+.description button {
+  background-color: #fa5c65;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #f97300;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 41px;
+  width: 170px;
+  height: 65px;
+}
+
+.description button:hover {
+  background-color: #fa5c65;
+}
+
+.footer {
+  padding-top: 35px;
+  height: 92px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e6eaed;
+  margin-top: 62px;
+}
+
+.logos {
+  margin-left: -15px;
+}
+
+.logos a:not(:last-child) {
+  margin-right: 22px;
+}
+
+.copyright {
+  color: #b9c0c6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.opportunities h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #465065;
+}
+
+.opportunities p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #9aa0ab;
+  margin-top: 31px;
+}
+
+.dot {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f0454c;
+}
+
+.more::after {
+  content: "";
+  display: inline-block;
+  background: url(/img/icons/Arrow.svg) no-repeat;
+  width: 12px;
+  height: 9px;
+  margin-left: 7px;
+}
+
+.advantages {
+  margin-top: 83px;
+  padding-bottom: 57px;
+}
+
+.fas.fa-arrow-right {
+  margin-left: 17px;
+}
+
+.col_left {
+  padding-top: 47px;
+}
+
+.col_left img {
+  margin-bottom: 58px;
+}
+
+.col_right {
+  padding-top: 66px;
+}
+
+.col_right h1 {
+  /* Style for "portfolio." */
+  color: #314a5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.col_right h1::after {
+  content: ".";
+  letter-spacing: -1.2px;
+  color: #f0454c;
+}
+
+.first {
+  color: #314a5b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.second {
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.col_right .more,
+.team-link .more,
+.opportunities .more {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fa5c65;
+  padding-top: 29px;
+  padding-bottom: 57px;
+}
+
+.team_heading h1 {
+  color: #314a5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 53.86px;
+  text-transform: uppercase;
+}
+
+.team_heading h1:after {
+  content: ".";
+  color: #f0454c;
+  letter-spacing: -0.48px;
+}
+
+.team p {
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.photo img {
+  border-radius: 50%;
+}
+
+.workers h1 {
+  color: #314a5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#profession {
+  color: #f0454c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.workers p {
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.worker {
+  margin-left: -40px;
+}
